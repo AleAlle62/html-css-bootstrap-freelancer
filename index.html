@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
 
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/c88a405b1b.js" crossorigin="anonymous"></script>
 
     <!-- bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -14,6 +16,87 @@
 
 </head>
 <body>
+    <!-- NAVABAR SOPRA  -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                        <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- PRIMO BLOCCO CELESTE  -->
+
+    <div class="container">
+        <div class="text-center">
+            <img src="avatar.svg" class="rounded">
+            <p class="fs-1">START BOOTSTRAP</p>
+            <i class="fa-solid fa-star"></i> 
+            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+        </div>
+    </div>
+
+    <!-- BLOCCO DELLE IMMAGINI  -->
+
+    <div class="container-sm">
+        <!-- 1 -->
+        <div class="text-center">
+            <p class="fs-1">PORTFOLIO</p>
+            <p><i class="fa-solid fa-star"></i> </p>
+            <img src="cabin.png" class="rounded">  
+        <!-- 2 -->
+        <div class="text-center">
+            <img src="cake.png" class="rounded"> 
+        <!-- 3 -->
+        <div class="text-center">
+            <img src="circus.png" class="rounded"> 
+        <!-- 4 -->
+        <div class="text-center">
+            <img src="game.png" class="rounded">
+        <!-- 5 -->
+        <div class="text-center">
+            <img src="safe.png" class="rounded"> 
+        <!-- 6 -->
+        <div class="text-center">
+            <img src="submarine.png" class="rounded"> 
+
+    </div>
 
 
 
@@ -27,10 +110,6 @@
 
 
 
-
-
-
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
